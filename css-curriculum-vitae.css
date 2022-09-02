@@ -1,0 +1,314 @@
+*root {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #eae8ea;
+    font-family: sans-serif;
+    color: #898b8b;
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*Custon Propertis*/
+
+--max-width:1200px;
+--color-blanco:white;
+--colo-title:red;
+--color-subtitle:blue;
+--color-text:gray;
+--black-alapha-color:rgba(0, 0, 0, 0.5);
+
+/*Reseteo*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/*Componentes*/
+
+
+
+/*HeroImage*/
+.hero-image {
+    /*----pendiente para  funcionar---*/
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*para que el attachmnet funcione, las imagenes tiene que tener un Max-W=100% y un H=auto definido*/
+    background-attachment: fixed;
+    background-color: black;
+}
+
+
+.hero-image-opacity {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+}
+
+
+.hero-image-title {
+    font-size: 5.5vw;
+}
+
+
+
+
+
+
+
+
+
+/*Menu*/
+
+.menu {
+    /*----pendiente para  funcionar---*/
+    display: none;
+
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkorchid;
+    color: white;
+    padding: 15px 0 0 0;
+
+
+}
+
+.menu-nav a {
+    color: white;
+}
+
+
+.menu-nav a:hover {
+    color: violet;
+}
+
+/*Progres Bar*/
+
+progress {
+    width: 100%;
+    height: 1rem;
+}
+
+.progress > p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/*Utilitis*/
+
+.btn {
+    border-radius: 5rem;
+    margin: 10px;
+    padding: 0.8rem;
+    width: 200px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: azure;
+    background-color: darkorchid;
+}
+
+.color-titular {
+    color: darkorchid;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    color: antiquewhite;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container a {
+    color: beige;
+    font-size: 1.5rem;
+}
+
+
+.none {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media screen and(min-width: 1024px) {
+
+    .text-lg-center {
+        text-align: center;
+    }
+
+}
+
+.aire {
+    padding: 50px 0;
+}
+
+.centrado {
+    margin: auto;
+    display: block;
+}
+
+.titulares {
+    color: deeppink;
+}
+
+
+
+/*Stilos del Sitio*/
+
+
+
+.aboud p {
+    margin: 0 20px;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+
+h2 {
+    font-size: 2rem;
+    ;
+}
+
+
+h3 {
+    margin-top: 0;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    z-index: 999;
+    background-color: blueviolet;
+    padding: 1rem;
+
+}
+
+.header > .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-redonda {
+
+    border-radius: 50%;
+}
+
+
+
+.logo {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+/*Sponsor*/
+
+
+.empresas img {
+    width: 250px;
+/*    filter: grayscale(1);*/
+}
+
+.empresas{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/*contacto*/
+
+.contact .redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+    font-size: 4rem;
+}
+
+.image-author {
+    height: 100px;
+}
+
+
+.datos-valentina {
+    text-align: center;
+    color: dimgray;
+    padding: 180px 0 50px 0;
+    font-size: 20px;
+}
+
+.datos-valentina div {
+
+    padding: 8px 0;
+    color: darkorchid;
+}
+
+
+
+.contact .redes a {
+    padding: 0 18px;
+    color: darkorchid;
+
+}
+
+
+.contact .redes {
+    display: flex;
+    align-items: center;
+    padding: 0 0 200px 0;
+    font-size: 5.5vw;
+
+}
