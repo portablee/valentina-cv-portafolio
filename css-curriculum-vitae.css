@@ -196,7 +196,6 @@ progress {
 /*Stilos del Sitio*/
 
 
-
 .aboud p {
     margin: 0 20px;
 }
@@ -256,17 +255,23 @@ h3 {
 
 .empresas img {
     width: 250px;
-/*    filter: grayscale(1);*/
+    /*    filter: grayscale(1);*/
 }
 
-.empresas{
+.empresas {
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: space-around;
 }
 
+@media screen and(max-width: 375px) {
 
+    .empresas {
+        border: 1px solid red;
+    }
+
+}
 
 /*contacto*/
 
