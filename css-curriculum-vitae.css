@@ -51,7 +51,7 @@ p {
     background-size: cover;
     background-position: center;
     /*para que el attachmnet funcione, las imagenes tiene que tener un Max-W=100% y un H=auto definido*/
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-color: black;
 }
 
@@ -101,12 +101,18 @@ p {
 
 .menu-nav a {
     color: white;
+    font-size: 2rem;
 }
 
 
 .menu-nav a:hover {
     color: violet;
+    
 }
+
+
+
+
 
 /*Progres Bar*/
 
@@ -122,8 +128,18 @@ progress {
 
 }
 
+.progress > p > b {
+    font-size: 1.5rem;
+}
+
 
 /*Utilitis*/
+
+
+.title {
+    font-size: 2rem;
+    ;
+}
 
 .btn {
     border-radius: 5rem;
@@ -200,6 +216,17 @@ progress {
     margin: 0 20px;
 }
 
+.footer{
+    background-color: darkorchid;
+    color: white;
+    padding: 20px 0 ;
+    margin: 50px 0 0 0;
+    
+        
+    
+}
+
+
 
 
 h1 {
@@ -208,16 +235,10 @@ h1 {
 }
 
 
-h2 {
-    font-size: 2rem;
-    ;
-}
 
 
-h3 {
-    margin-top: 0;
-}
 
+/*
 .header {
     position: fixed;
     left: 0;
@@ -229,6 +250,7 @@ h3 {
     padding: 1rem;
 
 }
+*/
 
 .header > .container {
     display: flex;
